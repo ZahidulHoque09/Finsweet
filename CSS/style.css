@@ -39,11 +39,9 @@ span {
 }
 
 :root {
-  --Primary_Background_color: #1c1e53;
-  --Secondary_Background_color: #f4f6fc;
-  --white_color: #fff;
-  --Primary_Text_color: #282938;
-  --Button_color: #fcd980;
+  --Primary_Background_color: #ffffff;
+
+  --Primary_Text_color: #000000;
 }
 
 body {
@@ -67,230 +65,55 @@ body {
   font-weight: 500;
 }
 
-.btn {
-  margin-right: 2px;
-  max-width: 185px;
-  color: var(--white_color);
-  border-radius: 41px;
-  border: 2px solid rgba(244, 246, 252, 0.2);
+.navButton {
+  color: #7c14fd;
+  margin-right: 10px;
+  padding: 10px 35px;
+
+  border: 2px solid var(--Primary, #7c14fd);
+  -webkit-border-radius: 250px;
+  -moz-border-radius: 250px;
+  -ms-border-radius: 250px;
+  -o-border-radius: 250px;
 }
 
 /* =============================================
-              Navbar CSS end
-  =============================================== */
-
-/* =============================================
-              Work part CSS start
-  =============================================== */
-#Work_part {
-  background-color: var(--Secondary_Background_color);
-}
-
-.workPart__title {
-  margin-top: 120px;
-  text-align: center;
-  color: var(--Primary_Text_color);
-  font-size: 16px;
-  font-weight: 500;
-}
-.workPart__heading {
-  color: var(--Primary_Text_color);
-  text-align: center;
-  font-size: 48px;
-  font-weight: 600;
-}
-.workPart__summary {
-  color: var(--Primary_Text_color);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
-}
-.workIcon {
-  text-align: center;
-  margin-right: 15px;
-  margin-bottom: 150px;
-}
-/* =============================================
-              Work part CSS end
-  =============================================== */
-
-/* =============================================
-              Template part CSS start
-  =============================================== */
-#Template_part {
-  margin-top: 100px;
-}
-
-.templateList__iteam li {
-  color: var(--Primary_Text_color);
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.templateContents__title {
-  color: var(--Primary_Text_color);
-  font-size: 38px;
-  font-weight: 600;
-}
-
-.templateContents__summary{
-  color:var(--Primary_Text_color);
-text-align: justify;
-font-size: 16px;
-font-weight: 400;
-line-height: 28px;/
-}
-
-.templateContents__view{
-  margin-top: 100px;
-  color: var(--Primary_Text_color);
-font-size: 16px;
-font-weight: 500;
-line-height: 150%;
-}
-
-
-/* =============================================
-              Template part CSS end
-  =============================================== */
-
-/* =============================================
-               Together part CSS start
-  =============================================== */
-#Together_part{
-  margin-top: 128px;
-}
-
-.togetherPart__heading{
-  color: var(--Primary_Text_color);
-text-align: center;
-font-size: 48px;
-font-weight: 600;
-
-
-}
-
-.togetherPart__summary{
-  max-width: 560px;
-  color:var(--Primary_Text_color);
-text-align: center;
-font-size: 16px;
-font-weight: 500;
-line-height: 28px; 
-}
-
-.togetherButton{
-  display: flex;
-justify-content: center;
-align-items: center;
-
-
-
-}
-
-.togetherButton__btn{
-  border-radius: 41px;
-background: #FCD980;
-max-width: 230px;
-height: 64px;
-padding: 16px 67px 16px 66px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-border: none;
-}
-
-
-  /* =============================================
-               Together part CSS end
-  =============================================== */
-/* =============================================
-            Bottom part  CSS start
+            Blog part CSS start
 =============================================== */
-#Bottom_part {
-margin-top: 128px;
-  padding: 128px 0 ;
-  background-color:var(--Primary_Background_color);
-  max-width: 1600px;
-height: 489px;
-flex-shrink: 0;
+#Blog_part {
+  padding: 128px 0;
 }
 
-.BottomLeft__title {
-  color: var(--white_color);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
-  margin-bottom: 166px;
+.blogTitle {
+  margin-left: 100px;
+  color: var(--Black, #000);
+  font-size: 30px;
+  font-weight: 700;
 }
-
-.BottomcontactBox {
-  background-color: var(--Button_color);
-  max-width: 517px;
-  height: 95px;
-
-  .BottomContact__email{
-    color: var(--Dark-blue, #282938);
-
-
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: 32px; /* 177.778% */
-  }
- 
-  
-}
-
-.BottomRight__title {
-  color: #fff;
-  font-size: 48px;
+.blogHeading {
+  color: #b070ff;
+  margin-left: 100px;
+  font-size: 24px;
+  font-style: normal;
   font-weight: 600;
 }
 
-.BottomRight__summary {
-  color: var(--white_color);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 28px;
-  opacity: 0.8;
+.blogCard {
+  position: relative;
 }
 
-.BottomRightIcon__ic{
-  color: var(--white_color);
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
-/* =============================================
-              Bottom part  CSS end
-  =============================================== */
 
 /* =============================================
-              Footer part  CSS Start
-  =============================================== */
+            Blog part CSS End
+=============================================== */
 
-
-.FooterRight__list {
-
-color:var(--Primary_Text_color);
-font-size: 16px;
-font-weight: 500;
-
-}
 /* =============================================
-           Footer part  CSS end
-  =============================================== */
-
-
-
-  /* =============================================
-               Together part CSS end
-  =============================================== */
-
-  /* =============================================
-               Together part CSS end
-  =============================================== */
-
-  /* =============================================
-               Together part CSS end
-  =============================================== */
+            Navbar CSS start
+=============================================== */

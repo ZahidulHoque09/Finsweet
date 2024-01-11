@@ -1,0 +1,10 @@
+@import url(./Device/largeDevice.CSS);
+
+@media (max-width: 991.98px) {
+  .menuIteam {
+    background-color: #fcd980;
+    margin: 10px 0;
+    padding: 10px 0;
+    text-align: center;
+  }
+}
